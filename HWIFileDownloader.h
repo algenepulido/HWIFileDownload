@@ -179,5 +179,6 @@ typedef void (^HWIFileDownloaderPauseResumeDataBlock)(NSData * _Nullable resumeD
  */
 - (nullable HWIFileDownloadProgress *)downloadProgressForIdentifier:(nonnull NSString *)identifier;
 
+- (void)pauseDownloadWithIdentifier:(nonnull NSString *)aDownloadIdentifier;
 
 @end
